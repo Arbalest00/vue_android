@@ -1,0 +1,533 @@
+0 verbose cli D:\Dev_tools\nodejs\node.exe D:\Dev_tools\nvm\node_global\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.4.0
+2 info using node@v20.10.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:D:\Dev_tools\nvm\node_global\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\Administrator\AppData\Roaming\SPB_16.6\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_global\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 13ms
+17 timing npm:load:configload Completed in 13ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm uninstall cordova-android
+22 verbose argv "uninstall" "cordova-android" "--save-dev"
+23 timing npm:load:setTitle Completed in 0ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_cache\_logs\2024-02-07T06_53_01_805Z-
+26 verbose logfile D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_cache\_logs\2024-02-07T06_53_01_805Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 63ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 30ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 0ms
+38 timing idealTree:fixDepFlags Completed in 3ms
+39 timing idealTree Completed in 34ms
+40 timing arborist:ctor Completed in 0ms
+41 timing reify:loadTrees Completed in 46ms
+42 timing reify:diffTrees Completed in 1ms
+43 silly reify mark retired [
+43 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@netflix\\nerror'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.scandir'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.stat'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.walk'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@xmldom\\xmldom'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\abbrev'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\android-versions'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\ansi'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\assert-plus'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\balanced-match'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\base64-js'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\big-integer'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\bplist-parser'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\brace-expansion'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\braces'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\concat-map'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cordova-android'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cordova-common'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cross-spawn'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\dedent'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\elementtree'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\endent'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\execa'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\extsprintf'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fast-glob'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fast-json-parse'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fastq'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fill-range'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fs-extra'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fs.realpath'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\get-stream'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\glob'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\glob-parent'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\graceful-fs'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\human-signals'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\inflight'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\inherits'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-extglob'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-glob'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-number'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-path-inside'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-stream'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\isexe'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\jsonfile'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.assign'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.isdate'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.isobject'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.zip'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lru-cache'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\merge-stream'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\merge2'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\micromatch'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\mimic-fn'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\minimatch'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\nopt',
+98 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt',
+98 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt.cmd',
+98 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt.ps1'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\npm-run-path'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\objectorarray'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\once'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\onetime'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\p-finally'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\p-try'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\path-is-absolute'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\path-key'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\picomatch'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\pify'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\plist'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\properties-parser'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\q'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\queue-microtask'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\read-chunk'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\reusify'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\run-parallel'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\sax'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\semver',
+117 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver',
+117 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver.cmd',
+117 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver.ps1'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\shebang-command'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\shebang-regex'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\signal-exit'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\string-argv'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\string.prototype.codepointat'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\strip-bom'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\strip-final-newline'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\to-regex-range'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\universalify'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\untildify'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\which',
+128 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which',
+128 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which.cmd',
+128 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which.ps1'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\with-open-file'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\wrappy'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\xmlbuilder'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\yallist'
+132 silly reify ]
+133 silly reify moves {
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@netflix\\nerror': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@netflix\\.nerror-EHlQ7PGo',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.scandir': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\.fs.scandir-GUGx2ivN',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.stat': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\.fs.stat-r2JGgVmq',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\fs.walk': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@nodelib\\.fs.walk-IsLq0AME',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@xmldom\\xmldom': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\@xmldom\\.xmldom-NOqEIUPi',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\abbrev': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.abbrev-BgzvTlNe',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\android-versions': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.android-versions-hUO44z2G',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\ansi': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.ansi-jUvfQnwa',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\assert-plus': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.assert-plus-2jT7TsJ9',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\balanced-match': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.balanced-match-nNTOvfQX',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\base64-js': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.base64-js-YTYbcJOH',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\big-integer': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.big-integer-vTkzZLAF',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\bplist-parser': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bplist-parser-ipIOecT4',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\brace-expansion': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.brace-expansion-ZMq2A20f',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\braces': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.braces-5IQXVNqe',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\concat-map': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.concat-map-iKU2RcXp',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cordova-android': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.cordova-android-9knudFTw',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cordova-common': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.cordova-common-nThkbJNG',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\cross-spawn': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.cross-spawn-dQ6N6h7c',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\dedent': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.dedent-Gv16e7jh',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\elementtree': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.elementtree-Wk5JU76B',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\endent': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.endent-oYMavWzs',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\execa': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.execa-URfjv8X4',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\extsprintf': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.extsprintf-AaclFXXM',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fast-glob': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fast-glob-O2KzGr6r',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fast-json-parse': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fast-json-parse-M4eItG4b',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fastq': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fastq-I4X7O3cJ',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fill-range': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fill-range-r0cSE1IS',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fs-extra': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fs-extra-PWSeyruv',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\fs.realpath': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.fs.realpath-5CEQi6uh',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\get-stream': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.get-stream-08Luu37W',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\glob': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.glob-V0Cedy1L',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\glob-parent': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.glob-parent-lIc5K2nv',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\graceful-fs': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.graceful-fs-FvFnSi1A',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\human-signals': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.human-signals-M5xcLGmZ',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\inflight': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.inflight-jqZgqhag',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\inherits': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.inherits-UtblHehD',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-extglob': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.is-extglob-vWFKVBUd',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-glob': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.is-glob-riOV4Gpw',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-number': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.is-number-Gt9bRFMI',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-path-inside': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.is-path-inside-3QtwXUn5',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\is-stream': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.is-stream-erWdxqpL',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\isexe': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.isexe-aIvfAxMP',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\jsonfile': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.jsonfile-EXOAY3tX',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lodash-FN4meHHq',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.assign': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lodash.assign-b7MSNxeL',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.isdate': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lodash.isdate-gnYBxVwy',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.isobject': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lodash.isobject-Q1Fki7A2',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lodash.zip': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lodash.zip-CKKLyJ8g',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\lru-cache': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.lru-cache-2DnRJ6Fg',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\merge-stream': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.merge-stream-dFzQv5fv',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\merge2': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.merge2-Nk7rbiws',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\micromatch': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.micromatch-wQgqsvr3',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\mimic-fn': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.mimic-fn-qKrU3UNX',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\minimatch': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.minimatch-vPlSn4wc',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\nopt': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.nopt-cCdTOU9y',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.nopt-5vkAw3ig',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt.cmd': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.nopt.cmd-PSJlaXxb',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\nopt.ps1': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.nopt.ps1-vQdiSjnW',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\npm-run-path': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.npm-run-path-LS9FDmjZ',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\objectorarray': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.objectorarray-4TU5g19Z',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\once': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.once-LLNol8pC',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\onetime': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.onetime-Z82CLysB',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\p-finally': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.p-finally-T55qpa28',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\p-try': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.p-try-2INF1gT9',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\path-is-absolute': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.path-is-absolute-r6wSKbgu',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\path-key': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.path-key-72XCrkhA',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\picomatch': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.picomatch-1WSXdAvY',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\pify': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.pify-uoxgtCQK',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\plist': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.plist-viNvZcBG',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\properties-parser': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.properties-parser-R56Hy32T',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\q': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.q-DUlaYgt3',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\queue-microtask': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.queue-microtask-VgIrad1y',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\read-chunk': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.read-chunk-WQjafExJ',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\reusify': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.reusify-XFDMeS5M',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\run-parallel': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.run-parallel-KGVMmlst',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\sax': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.sax-RavW6frm',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\semver': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.semver-nTJ9sGsw',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.semver-NiBMlTdS',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver.cmd': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.semver.cmd-inOJkGTz',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\semver.ps1': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.semver.ps1-n96npns2',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\shebang-command': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.shebang-command-7A8omeBy',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\shebang-regex': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.shebang-regex-gfpOWu5L',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\signal-exit': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.signal-exit-FrDmDQsm',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\string-argv': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.string-argv-VW1GWjyB',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\string.prototype.codepointat': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.string.prototype.codepointat-RVfl5vgc',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\strip-bom': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.strip-bom-XVnhtE4k',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\strip-final-newline': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.strip-final-newline-q0xiHuFF',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\to-regex-range': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.to-regex-range-9jr0F0rx',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\universalify': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.universalify-wJa6nSLC',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\untildify': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.untildify-l0Fbu6PA',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\which': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.which-M7ALl3JG',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.node-which-CHlp0nH6',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which.cmd': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.node-which.cmd-NL1wUhX4',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\node-which.ps1': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.bin\\.node-which.ps1-Rk28l4nM',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\with-open-file': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.with-open-file-5qRqJaI2',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\wrappy': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.wrappy-i2kvQbO9',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\xmlbuilder': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.xmlbuilder-Pw4mkNwU',
+133 silly reify   'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\yallist': 'D:\\WORKPLACE\\code\\W\\vue_django\\app_android\\src-cordova\\node_modules\\.yallist-8QFb7eZi'
+133 silly reify }
+134 timing reify:retireShallow Completed in 32ms
+135 timing reify:createSparse Completed in 0ms
+136 timing reify:loadBundles Completed in 0ms
+137 silly audit report null
+138 timing reify:audit Completed in 0ms
+139 timing reify:unpack Completed in 0ms
+140 timing reify:unretire Completed in 1ms
+141 timing build:queue Completed in 0ms
+142 timing build:deps Completed in 0ms
+143 timing build Completed in 0ms
+144 timing reify:build Completed in 0ms
+145 timing reify:trash Completed in 185ms
+146 timing reify:save Completed in 3ms
+147 timing reify Completed in 275ms
+148 silly REMOVE node_modules/yallist
+149 silly REMOVE node_modules/xmlbuilder
+150 silly REMOVE node_modules/wrappy
+151 silly REMOVE node_modules/with-open-file
+152 silly REMOVE node_modules/which
+153 silly REMOVE node_modules/untildify
+154 silly REMOVE node_modules/universalify
+155 silly REMOVE node_modules/to-regex-range
+156 silly REMOVE node_modules/strip-final-newline
+157 silly REMOVE node_modules/strip-bom
+158 silly REMOVE node_modules/string.prototype.codepointat
+159 silly REMOVE node_modules/string-argv
+160 silly REMOVE node_modules/signal-exit
+161 silly REMOVE node_modules/shebang-regex
+162 silly REMOVE node_modules/shebang-command
+163 silly REMOVE node_modules/semver
+164 silly REMOVE node_modules/sax
+165 silly REMOVE node_modules/run-parallel
+166 silly REMOVE node_modules/reusify
+167 silly REMOVE node_modules/read-chunk
+168 silly REMOVE node_modules/queue-microtask
+169 silly REMOVE node_modules/q
+170 silly REMOVE node_modules/properties-parser
+171 silly REMOVE node_modules/plist
+172 silly REMOVE node_modules/pify
+173 silly REMOVE node_modules/picomatch
+174 silly REMOVE node_modules/path-key
+175 silly REMOVE node_modules/path-is-absolute
+176 silly REMOVE node_modules/p-try
+177 silly REMOVE node_modules/p-finally
+178 silly REMOVE node_modules/onetime
+179 silly REMOVE node_modules/once
+180 silly REMOVE node_modules/objectorarray
+181 silly REMOVE node_modules/npm-run-path
+182 silly REMOVE node_modules/nopt
+183 silly REMOVE node_modules/minimatch
+184 silly REMOVE node_modules/mimic-fn
+185 silly REMOVE node_modules/micromatch
+186 silly REMOVE node_modules/merge2
+187 silly REMOVE node_modules/merge-stream
+188 silly REMOVE node_modules/lru-cache
+189 silly REMOVE node_modules/lodash.zip
+190 silly REMOVE node_modules/lodash.isobject
+191 silly REMOVE node_modules/lodash.isdate
+192 silly REMOVE node_modules/lodash.assign
+193 silly REMOVE node_modules/lodash
+194 silly REMOVE node_modules/jsonfile
+195 silly REMOVE node_modules/isexe
+196 silly REMOVE node_modules/is-stream
+197 silly REMOVE node_modules/is-path-inside
+198 silly REMOVE node_modules/is-number
+199 silly REMOVE node_modules/is-glob
+200 silly REMOVE node_modules/is-extglob
+201 silly REMOVE node_modules/inherits
+202 silly REMOVE node_modules/inflight
+203 silly REMOVE node_modules/human-signals
+204 silly REMOVE node_modules/graceful-fs
+205 silly REMOVE node_modules/glob-parent
+206 silly REMOVE node_modules/glob
+207 silly REMOVE node_modules/get-stream
+208 silly REMOVE node_modules/fs.realpath
+209 silly REMOVE node_modules/fs-extra
+210 silly REMOVE node_modules/fill-range
+211 silly REMOVE node_modules/fastq
+212 silly REMOVE node_modules/fast-json-parse
+213 silly REMOVE node_modules/fast-glob
+214 silly REMOVE node_modules/extsprintf
+215 silly REMOVE node_modules/execa
+216 silly REMOVE node_modules/endent
+217 silly REMOVE node_modules/endent/node_modules/dedent
+218 silly REMOVE node_modules/elementtree
+219 silly REMOVE node_modules/dedent
+220 silly REMOVE node_modules/cross-spawn
+221 silly REMOVE node_modules/cross-spawn/node_modules/which
+222 silly REMOVE node_modules/cordova-common
+223 silly REMOVE node_modules/cordova-android
+224 silly REMOVE node_modules/concat-map
+225 silly REMOVE node_modules/braces
+226 silly REMOVE node_modules/brace-expansion
+227 silly REMOVE node_modules/bplist-parser
+228 silly REMOVE node_modules/big-integer
+229 silly REMOVE node_modules/base64-js
+230 silly REMOVE node_modules/balanced-match
+231 silly REMOVE node_modules/assert-plus
+232 silly REMOVE node_modules/ansi
+233 silly REMOVE node_modules/android-versions
+234 silly REMOVE node_modules/abbrev
+235 silly REMOVE node_modules/@xmldom/xmldom
+236 silly REMOVE node_modules/@nodelib/fs.walk
+237 silly REMOVE node_modules/@nodelib/fs.stat
+238 silly REMOVE node_modules/@nodelib/fs.scandir
+239 silly REMOVE node_modules/@netflix/nerror
+240 timing command:uninstall Completed in 280ms
+241 verbose exit 0
+242 timing npm Completed in 769ms
+243 info ok

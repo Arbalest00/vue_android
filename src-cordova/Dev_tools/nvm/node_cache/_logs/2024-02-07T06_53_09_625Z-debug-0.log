@@ -1,0 +1,432 @@
+0 verbose cli D:\Dev_tools\nodejs\node.exe D:\Dev_tools\nvm\node_global\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.4.0
+2 info using node@v20.10.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:D:\Dev_tools\nvm\node_global\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\Administrator\AppData\Roaming\SPB_16.6\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_global\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install cordova-android@6.3.0
+22 verbose argv "install" "cordova-android@6.3.0" "--save-dev"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_cache\_logs\2024-02-07T06_53_09_625Z-
+26 verbose logfile D:\WORKPLACE\code\W\vue_django\app_android\src-cordova\Dev_tools\nvm\node_cache\_logs\2024-02-07T06_53_09_625Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 56ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 4ms
+34 timing idealTree:userRequests Completed in 3ms
+35 silly idealTree buildDeps
+36 silly fetch manifest cordova-android@6.3.0
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/cordova-android 1901ms (cache revalidated)
+39 silly placeDep ROOT cordova-android@6.3.0 OK for: org.cordova.quasar.app@1.0.0 want: 6.3.0
+40 silly fetch manifest android-versions@^1.2.0
+41 http fetch GET 200 https://registry.npmjs.org/android-versions 274ms (cache revalidated)
+42 timing idealTree:#root Completed in 2280ms
+43 silly placeDep ROOT android-versions@1.9.0 OK for: cordova-android@6.3.0 want: ^1.2.0
+44 silly fetch manifest semver@^7.5.2
+45 http fetch GET 200 https://registry.npmjs.org/semver 242ms (cache revalidated)
+46 timing idealTree:node_modules/cordova-android Completed in 246ms
+47 silly placeDep ROOT semver@7.6.0 OK for: android-versions@1.9.0 want: ^7.5.2
+48 silly fetch manifest lru-cache@^6.0.0
+49 http fetch GET 200 https://registry.npmjs.org/lru-cache 241ms (cache revalidated)
+50 timing idealTree:node_modules/android-versions Completed in 245ms
+51 silly placeDep ROOT lru-cache@6.0.0 OK for: semver@7.6.0 want: ^6.0.0
+52 silly fetch manifest yallist@^4.0.0
+53 http fetch GET 200 https://registry.npmjs.org/yallist 255ms (cache revalidated)
+54 timing idealTree:node_modules/semver Completed in 257ms
+55 silly placeDep ROOT yallist@4.0.0 OK for: lru-cache@6.0.0 want: ^4.0.0
+56 timing idealTree:node_modules/lru-cache Completed in 1ms
+57 timing idealTree:node_modules/yallist Completed in 0ms
+58 timing idealTree:buildDeps Completed in 3030ms
+59 timing idealTree:fixDepFlags Completed in 1ms
+60 timing idealTree Completed in 3039ms
+61 timing reify:loadTrees Completed in 3039ms
+62 timing reify:diffTrees Completed in 1ms
+63 silly reify moves {}
+64 timing reify:retireShallow Completed in 1ms
+65 timing reify:createSparse Completed in 1ms
+66 silly tarball no local data for cordova-android@https://registry.npmjs.org/cordova-android/-/cordova-android-6.3.0.tgz. Extracting by manifest.
+67 http fetch GET 200 https://registry.npmjs.org/cordova-android/-/cordova-android-6.3.0.tgz 2715ms (cache miss)
+68 timing reifyNode:node_modules/cordova-android Completed in 2719ms
+69 timing arborist:ctor Completed in 0ms
+70 timing reify:diffTrees Completed in 1ms
+71 timing reify:loadBundles Completed in 2740ms
+72 silly audit bulk request {
+72 silly audit   'android-versions': [ '1.9.0' ],
+72 silly audit   semver: [ '7.6.0', '5.4.1' ],
+72 silly audit   'lru-cache': [ '6.0.0' ],
+72 silly audit   yallist: [ '4.0.0' ],
+72 silly audit   'cordova-android': [ '6.3.0' ],
+72 silly audit   abbrev: [ '1.1.0' ],
+72 silly audit   'base64-js': [ '0.0.8' ],
+72 silly audit   ansi: [ '0.3.1' ],
+72 silly audit   'bplist-parser': [ '0.1.1' ],
+72 silly audit   'balanced-match': [ '1.0.0' ],
+72 silly audit   'big-integer': [ '1.6.25' ],
+72 silly audit   'concat-map': [ '0.0.1' ],
+72 silly audit   'cordova-common': [ '2.1.0' ],
+72 silly audit   'cordova-registry-mapper': [ '1.1.15' ],
+72 silly audit   glob: [ '5.0.15' ],
+72 silly audit   'brace-expansion': [ '1.1.8' ],
+72 silly audit   elementtree: [ '0.1.6' ],
+72 silly audit   inflight: [ '1.0.6' ],
+72 silly audit   lodash: [ '3.10.1' ],
+72 silly audit   minimatch: [ '3.0.4' ],
+72 silly audit   inherits: [ '2.0.3' ],
+72 silly audit   once: [ '1.4.0' ],
+72 silly audit   nopt: [ '3.0.6' ],
+72 silly audit   'os-homedir': [ '1.0.2' ],
+72 silly audit   'properties-parser': [ '0.2.3' ],
+72 silly audit   'path-is-absolute': [ '1.0.1' ],
+72 silly audit   plist: [ '1.2.0' ],
+72 silly audit   osenv: [ '0.1.4' ],
+72 silly audit   q: [ '1.5.0' ],
+72 silly audit   'os-tmpdir': [ '1.0.2' ],
+72 silly audit   sax: [ '0.3.5' ],
+72 silly audit   unorm: [ '1.4.1' ],
+72 silly audit   underscore: [ '1.8.3' ],
+72 silly audit   shelljs: [ '0.5.3' ],
+72 silly audit   'util-deprecate': [ '1.0.2' ],
+72 silly audit   wrappy: [ '1.0.2' ],
+72 silly audit   xmldom: [ '0.1.27' ],
+72 silly audit   xmlbuilder: [ '4.0.0' ]
+72 silly audit }
+73 timing reifyNode:node_modules/lru-cache Completed in 11ms
+74 timing reifyNode:node_modules/yallist Completed in 11ms
+75 timing reifyNode:node_modules/android-versions Completed in 14ms
+76 timing reifyNode:node_modules/semver Completed in 30ms
+77 timing reify:unpack Completed in 30ms
+78 timing reify:unretire Completed in 0ms
+79 timing build:queue Completed in 1ms
+80 timing build:link:node_modules/cordova-android/node_modules/nopt Completed in 5ms
+81 timing build:link:node_modules/semver Completed in 5ms
+82 timing build:link:node_modules/cordova-android Completed in 5ms
+83 timing build:link:node_modules/cordova-android/node_modules/shelljs Completed in 4ms
+84 timing build:link:node_modules/cordova-android/node_modules/semver Completed in 5ms
+85 timing build:link Completed in 7ms
+86 timing build:deps Completed in 8ms
+87 timing build Completed in 9ms
+88 timing reify:build Completed in 9ms
+89 timing reify:trash Completed in 0ms
+90 timing reify:save Completed in 11ms
+91 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 262ms
+92 timing auditReport:getReport Completed in 264ms
+93 silly audit report {
+93 silly audit report   semver: [
+93 silly audit report     {
+93 silly audit report       id: 1095365,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-c2qf-rxjj-qqgw',
+93 silly audit report       title: 'semver vulnerable to Regular Expression Denial of Service',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<5.7.2',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   lodash: [
+93 silly audit report     {
+93 silly audit report       id: 1094493,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-jf85-cpcp-j695',
+93 silly audit report       title: 'Prototype Pollution in lodash',
+93 silly audit report       severity: 'critical',
+93 silly audit report       vulnerable_versions: '<4.17.12',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1094498,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-35jh-r3h4-6jhm',
+93 silly audit report       title: 'Command Injection in lodash',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '<4.17.21',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1094499,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-4xc9-xhrj-v574',
+93 silly audit report       title: 'Prototype Pollution in lodash',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '<4.17.11',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1094500,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-29mw-wpgm-hmr9',
+93 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in lodash',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<4.17.21',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1096305,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-p6mc-m468-83gw',
+93 silly audit report       title: 'Prototype Pollution in lodash',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '>=3.7.0 <4.17.19',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1085674,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-x5rq-j2xg-h7qm',
+93 silly audit report       title: 'Regular Expression Denial of Service (ReDoS) in lodash',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<4.17.11',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1087663,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-fvqr-27wr-82fm',
+93 silly audit report       title: 'Prototype Pollution in lodash',
+93 silly audit report       severity: 'low',
+93 silly audit report       vulnerable_versions: '<4.17.5',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   minimatch: [
+93 silly audit report     {
+93 silly audit report       id: 1095513,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-f8q6-p94x-37v3',
+93 silly audit report       title: 'minimatch ReDoS vulnerability',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '<3.0.5',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   plist: [
+93 silly audit report     {
+93 silly audit report       id: 1095138,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-4cpg-3vgw-4877',
+93 silly audit report       title: 'Prototype pollution in Plist before 3.0.5 can cause denial of service',
+93 silly audit report       severity: 'critical',
+93 silly audit report       vulnerable_versions: '<3.0.5',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   underscore: [
+93 silly audit report     {
+93 silly audit report       id: 1095097,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-cf4h-3jhx-xvhq',
+93 silly audit report       title: 'Arbitrary Code Execution in underscore',
+93 silly audit report       severity: 'critical',
+93 silly audit report       vulnerable_versions: '>=1.3.2 <1.12.1',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   shelljs: [
+93 silly audit report     {
+93 silly audit report       id: 1088208,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-64g7-mvw6-v9qj',
+93 silly audit report       title: 'Improper Privilege Management in shelljs',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<0.8.5',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1095126,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-4rq4-32rv-6wp6',
+93 silly audit report       title: 'Improper Privilege Management in shelljs',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '<0.8.5',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   xmldom: [
+93 silly audit report     {
+93 silly audit report       id: 1089556,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-5fg8-2547-mr8q',
+93 silly audit report       title: 'Misinterpretation of malicious XML input',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<0.7.0',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1090199,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-h6q6-9hqw-rwfv',
+93 silly audit report       title: 'Misinterpretation of malicious XML input',
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '<0.5.0',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     },
+93 silly audit report     {
+93 silly audit report       id: 1091573,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-crh6-fp67-6883',
+93 silly audit report       title: 'xmldom allows multiple root nodes in a DOM',
+93 silly audit report       severity: 'critical',
+93 silly audit report       vulnerable_versions: '<=0.6.0',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ]
+93 silly audit report }
+94 timing metavuln:packument:semver Completed in 3ms
+95 timing metavuln:cache:get:security-advisory:semver:vJraZSMCyFgVQ1bNhWOdU+XpEYGbHFUDM5/14lk3FB9a6J8P2rnzNsKu2Y+kXua1A+i6q1QhI6bGVi1eZzIkWw== Completed in 3ms
+96 timing metavuln:load:security-advisory:semver:1095365 Completed in 2ms
+97 timing metavuln:cache:get:security-advisory:lodash:SLKxBmMEAwxITdT7Jab701uLwCdIgTVr8zOmvodwQvqQLRcVaeaQr9AvkDdHOvAV0Si6aVIs9Aic17t/sth2gA== Completed in 5ms
+98 timing metavuln:cache:get:security-advisory:lodash:vY6umf/E0I60/2F1KmOu+eNtIxAgum4dje+dqXhzqy6fzeOdiKyRn6TQj+xxzfiW/557adQ1Sz9d4P/8SCZQfw== Completed in 5ms
+99 timing metavuln:cache:get:security-advisory:lodash:2FFnpm5b9NlCo++0WoBnjR2uNMpvHjQFSKtUSP62pJ2jwxud/l8yAo+ZYE7jCzi1kurwtgNFgnNgzJfR4u6pJA== Completed in 5ms
+100 timing metavuln:cache:get:security-advisory:lodash:Mtoe8wXe0sTZWPmcP2w+ckBg+FLSkUWFExmKWBQiZz7M/hEe+8h4DIfYsRO/dQTPqg/W9k7KXK+NF2JQCnMHhQ== Completed in 5ms
+101 timing metavuln:cache:get:security-advisory:lodash:3SFNRCR1J8jVlFmgBAeR6v90W3jYHd3idLeoNQLwFDgezaC6kDZx7sLoS6rC8+d31k0LpumMGSWSLhkXTHPf1g== Completed in 5ms
+102 timing metavuln:cache:get:security-advisory:lodash:xg0LH727vokuVisXwxxVE36mYxcXUI8uQGQtnUQWMHlLmbWU4FLjI5AtMSRnp1DSit+Sns7M7fAz6J5P06ChVA== Completed in 5ms
+103 timing metavuln:cache:get:security-advisory:lodash:z4OmwVTxNqdHHjT70ulWhC4a60XZsd0G3z7J11M3EAisnP9UbbToxo9rEr1ixGgEbRN+O6ShJ+yNA/rrgj9z/w== Completed in 5ms
+104 timing metavuln:cache:get:security-advisory:minimatch:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 5ms
+105 timing metavuln:cache:get:security-advisory:plist:S2F6N1npfxNMKW8JxPrr+ws6kyWzJIIdH8B8MPH1/pfJlXb5FHVckoHCDfKksx2cKBg2PNz+N9IyQ1AQUvR+cg== Completed in 4ms
+106 timing metavuln:cache:get:security-advisory:underscore:QSgdwW2KcWvX6nPcZcR0ES5ZYxwPhksxG3K2hijfoMhbBJ2X7PfGzZS1H5GhQgkiV8Cnmwv9KlU0oI3RHW7/AA== Completed in 4ms
+107 timing metavuln:cache:get:security-advisory:shelljs:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 4ms
+108 timing metavuln:cache:get:security-advisory:shelljs:Dcfbc+B1Gc71/TsKtnM24uATb0Ld6ZyDardd5RQ/GuWUALD+jnVtCOlxuj6h8dgIWOVjtGVCpb+mDNB5L/IdLw== Completed in 4ms
+109 timing metavuln:cache:get:security-advisory:xmldom:fNORWE/Jm66BEXGJPVsLmGtXBjiWvYOS2EctkNUXmhb8XJ6rbBexDdSR+/t+dZAvSvjCIMDvJdwiLZPfNB3JYQ== Completed in 4ms
+110 timing metavuln:cache:get:security-advisory:xmldom:HUlriF/3Uq+XVl8zTGAAKNt3H6YdeBnvYa72mAOsOr5bOoc3oz0esA+/PSUwCnJ0Bqa/hCB8LRd46NrAFNiLPQ== Completed in 3ms
+111 timing metavuln:cache:get:security-advisory:xmldom:CK1eo2hGYARDtX5IdZCThVBrBJhdNkmAIg7wRVNmF8Sy26vH4MDZgwSWQ/MOsV6n7uz5B9mS5HDZP6Qh2ayrTQ== Completed in 3ms
+112 timing metavuln:cache:put:security-advisory:semver:vJraZSMCyFgVQ1bNhWOdU+XpEYGbHFUDM5/14lk3FB9a6J8P2rnzNsKu2Y+kXua1A+i6q1QhI6bGVi1eZzIkWw== Completed in 14ms
+113 timing metavuln:calculate:security-advisory:semver:1095365 Completed in 19ms
+114 http fetch GET 200 https://registry.npmjs.org/underscore 254ms (cache miss)
+115 timing metavuln:packument:underscore Completed in 255ms
+116 timing metavuln:load:security-advisory:underscore:1095097 Completed in 1ms
+117 timing metavuln:cache:put:security-advisory:underscore:QSgdwW2KcWvX6nPcZcR0ES5ZYxwPhksxG3K2hijfoMhbBJ2X7PfGzZS1H5GhQgkiV8Cnmwv9KlU0oI3RHW7/AA== Completed in 2ms
+118 timing metavuln:calculate:security-advisory:underscore:1095097 Completed in 258ms
+119 http fetch GET 200 https://registry.npmjs.org/xmldom 1663ms (cache miss)
+120 timing metavuln:packument:xmldom Completed in 1663ms
+121 timing metavuln:load:security-advisory:xmldom:1089556 Completed in 0ms
+122 timing metavuln:load:security-advisory:xmldom:1090199 Completed in 0ms
+123 timing metavuln:load:security-advisory:xmldom:1091573 Completed in 0ms
+124 http fetch GET 200 https://registry.npmjs.org/shelljs 1665ms (cache miss)
+125 timing metavuln:packument:shelljs Completed in 1665ms
+126 timing metavuln:load:security-advisory:shelljs:1088208 Completed in 1ms
+127 timing metavuln:load:security-advisory:shelljs:1095126 Completed in 1ms
+128 timing metavuln:cache:put:security-advisory:xmldom:CK1eo2hGYARDtX5IdZCThVBrBJhdNkmAIg7wRVNmF8Sy26vH4MDZgwSWQ/MOsV6n7uz5B9mS5HDZP6Qh2ayrTQ== Completed in 6ms
+129 timing metavuln:calculate:security-advisory:xmldom:1091573 Completed in 1669ms
+130 timing metavuln:cache:put:security-advisory:xmldom:HUlriF/3Uq+XVl8zTGAAKNt3H6YdeBnvYa72mAOsOr5bOoc3oz0esA+/PSUwCnJ0Bqa/hCB8LRd46NrAFNiLPQ== Completed in 6ms
+131 timing metavuln:calculate:security-advisory:xmldom:1090199 Completed in 1670ms
+132 timing metavuln:cache:put:security-advisory:shelljs:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 4ms
+133 timing metavuln:calculate:security-advisory:shelljs:1088208 Completed in 1670ms
+134 timing metavuln:cache:put:security-advisory:shelljs:Dcfbc+B1Gc71/TsKtnM24uATb0Ld6ZyDardd5RQ/GuWUALD+jnVtCOlxuj6h8dgIWOVjtGVCpb+mDNB5L/IdLw== Completed in 3ms
+135 timing metavuln:calculate:security-advisory:shelljs:1095126 Completed in 1671ms
+136 timing metavuln:cache:put:security-advisory:xmldom:fNORWE/Jm66BEXGJPVsLmGtXBjiWvYOS2EctkNUXmhb8XJ6rbBexDdSR+/t+dZAvSvjCIMDvJdwiLZPfNB3JYQ== Completed in 8ms
+137 timing metavuln:calculate:security-advisory:xmldom:1089556 Completed in 1671ms
+138 http fetch GET 200 https://registry.npmjs.org/minimatch 1707ms (cache miss)
+139 timing metavuln:packument:minimatch Completed in 1709ms
+140 timing metavuln:load:security-advisory:minimatch:1095513 Completed in 3ms
+141 http fetch GET 200 https://registry.npmjs.org/lodash 1713ms (cache miss)
+142 timing metavuln:packument:lodash Completed in 1714ms
+143 timing metavuln:load:security-advisory:lodash:1094493 Completed in 3ms
+144 timing metavuln:load:security-advisory:lodash:1094498 Completed in 3ms
+145 timing metavuln:load:security-advisory:lodash:1094499 Completed in 3ms
+146 timing metavuln:load:security-advisory:lodash:1094500 Completed in 2ms
+147 timing metavuln:load:security-advisory:lodash:1096305 Completed in 2ms
+148 timing metavuln:load:security-advisory:lodash:1085674 Completed in 2ms
+149 timing metavuln:load:security-advisory:lodash:1087663 Completed in 1ms
+150 timing metavuln:cache:put:security-advisory:minimatch:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 29ms
+151 timing metavuln:calculate:security-advisory:minimatch:1095513 Completed in 1741ms
+152 timing metavuln:cache:put:security-advisory:lodash:xg0LH727vokuVisXwxxVE36mYxcXUI8uQGQtnUQWMHlLmbWU4FLjI5AtMSRnp1DSit+Sns7M7fAz6J5P06ChVA== Completed in 12ms
+153 timing metavuln:calculate:security-advisory:lodash:1085674 Completed in 1742ms
+154 timing metavuln:cache:put:security-advisory:lodash:2FFnpm5b9NlCo++0WoBnjR2uNMpvHjQFSKtUSP62pJ2jwxud/l8yAo+ZYE7jCzi1kurwtgNFgnNgzJfR4u6pJA== Completed in 19ms
+155 timing metavuln:calculate:security-advisory:lodash:1094499 Completed in 1742ms
+156 timing metavuln:cache:put:security-advisory:lodash:vY6umf/E0I60/2F1KmOu+eNtIxAgum4dje+dqXhzqy6fzeOdiKyRn6TQj+xxzfiW/557adQ1Sz9d4P/8SCZQfw== Completed in 22ms
+157 timing metavuln:calculate:security-advisory:lodash:1094498 Completed in 1743ms
+158 timing metavuln:cache:put:security-advisory:lodash:z4OmwVTxNqdHHjT70ulWhC4a60XZsd0G3z7J11M3EAisnP9UbbToxo9rEr1ixGgEbRN+O6ShJ+yNA/rrgj9z/w== Completed in 12ms
+159 timing metavuln:calculate:security-advisory:lodash:1087663 Completed in 1743ms
+160 timing metavuln:cache:put:security-advisory:lodash:Mtoe8wXe0sTZWPmcP2w+ckBg+FLSkUWFExmKWBQiZz7M/hEe+8h4DIfYsRO/dQTPqg/W9k7KXK+NF2JQCnMHhQ== Completed in 17ms
+161 timing metavuln:calculate:security-advisory:lodash:1094500 Completed in 1743ms
+162 timing metavuln:cache:put:security-advisory:lodash:3SFNRCR1J8jVlFmgBAeR6v90W3jYHd3idLeoNQLwFDgezaC6kDZx7sLoS6rC8+d31k0LpumMGSWSLhkXTHPf1g== Completed in 15ms
+163 timing metavuln:calculate:security-advisory:lodash:1096305 Completed in 1743ms
+164 timing metavuln:cache:put:security-advisory:lodash:SLKxBmMEAwxITdT7Jab701uLwCdIgTVr8zOmvodwQvqQLRcVaeaQr9AvkDdHOvAV0Si6aVIs9Aic17t/sth2gA== Completed in 26ms
+165 timing metavuln:calculate:security-advisory:lodash:1094493 Completed in 1743ms
+166 http fetch GET 200 https://registry.npmjs.org/plist 1785ms (cache miss)
+167 timing metavuln:packument:plist Completed in 1786ms
+168 timing metavuln:load:security-advisory:plist:1095138 Completed in 0ms
+169 timing metavuln:cache:put:security-advisory:plist:S2F6N1npfxNMKW8JxPrr+ws6kyWzJIIdH8B8MPH1/pfJlXb5FHVckoHCDfKksx2cKBg2PNz+N9IyQ1AQUvR+cg== Completed in 2ms
+170 timing metavuln:calculate:security-advisory:plist:1095138 Completed in 1788ms
+171 timing metavuln:cache:get:security-advisory:cordova-common:Of7capogRU74bfxarzq8fTCU+WBSar4y3gkcqcCocMjrtM1PuMX7qTMACQtIdPYl8EmwifKqqy8XIQ1i70sm+g== Completed in 0ms
+172 http fetch GET 200 https://registry.npmjs.org/cordova-common 779ms (cache miss)
+173 timing metavuln:packument:cordova-common Completed in 790ms
+174 timing metavuln:load:security-advisory:cordova-common:vJraZSMCyFgVQ1bNhWOdU+XpEYGbHFUDM5/14lk3FB9a6J8P2rnzNsKu2Y+kXua1A+i6q1QhI6bGVi1eZzIkWw== Completed in 43ms
+175 timing metavuln:cache:put:security-advisory:cordova-common:Of7capogRU74bfxarzq8fTCU+WBSar4y3gkcqcCocMjrtM1PuMX7qTMACQtIdPYl8EmwifKqqy8XIQ1i70sm+g== Completed in 5ms
+176 timing metavuln:calculate:security-advisory:cordova-common:vJraZSMCyFgVQ1bNhWOdU+XpEYGbHFUDM5/14lk3FB9a6J8P2rnzNsKu2Y+kXua1A+i6q1QhI6bGVi1eZzIkWw== Completed in 839ms
+177 timing metavuln:cache:get:security-advisory:xmlbuilder:fmgcFHGM2Qz0lYBOSzMzODkOVDEPnONo5T/4aREHDkOrejvbCn0VqBy82Lj+6/zHjBmsbPi+Mq/0Rb8WnbTIZQ== Completed in 0ms
+178 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 246ms (cache miss)
+179 timing metavuln:packument:xmlbuilder Completed in 246ms
+180 timing metavuln:load:security-advisory:xmlbuilder:SLKxBmMEAwxITdT7Jab701uLwCdIgTVr8zOmvodwQvqQLRcVaeaQr9AvkDdHOvAV0Si6aVIs9Aic17t/sth2gA== Completed in 3ms
+181 timing metavuln:cache:put:security-advisory:xmlbuilder:fmgcFHGM2Qz0lYBOSzMzODkOVDEPnONo5T/4aREHDkOrejvbCn0VqBy82Lj+6/zHjBmsbPi+Mq/0Rb8WnbTIZQ== Completed in 3ms
+182 timing metavuln:calculate:security-advisory:xmlbuilder:SLKxBmMEAwxITdT7Jab701uLwCdIgTVr8zOmvodwQvqQLRcVaeaQr9AvkDdHOvAV0Si6aVIs9Aic17t/sth2gA== Completed in 252ms
+183 timing metavuln:cache:get:security-advisory:cordova-common:jhRm9ghZ7oWU5tI8F/fCNs30Wi98FEhg2xqlPXIrOboAvzf4zC4MgDJJWO2kPxchmHWNFItQtC+5iiX0FNY3kg== Completed in 0ms
+184 timing metavuln:load:security-advisory:cordova-common:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 34ms
+185 timing metavuln:cache:get:security-advisory:glob:SPAj2XXNfA+mk+qzcrYLTB2cDMMbKpas3iuchJOJwbzRMVf7WoJuI1pGz6gvt8pTua/ZXmqOK9OfQ2VhnXJyPg== Completed in 35ms
+186 timing metavuln:cache:put:security-advisory:cordova-common:jhRm9ghZ7oWU5tI8F/fCNs30Wi98FEhg2xqlPXIrOboAvzf4zC4MgDJJWO2kPxchmHWNFItQtC+5iiX0FNY3kg== Completed in 5ms
+187 timing metavuln:calculate:security-advisory:cordova-common:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 39ms
+188 http fetch GET 200 https://registry.npmjs.org/glob 279ms (cache miss)
+189 timing metavuln:packument:glob Completed in 280ms
+190 timing metavuln:load:security-advisory:glob:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 8ms
+191 timing metavuln:cache:put:security-advisory:glob:SPAj2XXNfA+mk+qzcrYLTB2cDMMbKpas3iuchJOJwbzRMVf7WoJuI1pGz6gvt8pTua/ZXmqOK9OfQ2VhnXJyPg== Completed in 4ms
+192 timing metavuln:calculate:security-advisory:glob:ZLZtXoSrDp+nkIhM2+ym2KDNrb93gsClEdnGSp2VjEwUtqjMxCrU+7/epZyhk41wYROBpGlO3VKR64w/K2j8PQ== Completed in 292ms
+193 timing metavuln:cache:get:security-advisory:cordova-common:+4DGchw3jPDbfbzGVQ5KEGw+aTP4FwUJQH2OZP8wFDNvcUL8/dpiIx+zlOaAGWxUkQJJkgkIFAbXH/fg24gNnA== Completed in 0ms
+194 timing metavuln:load:security-advisory:cordova-common:S2F6N1npfxNMKW8JxPrr+ws6kyWzJIIdH8B8MPH1/pfJlXb5FHVckoHCDfKksx2cKBg2PNz+N9IyQ1AQUvR+cg== Completed in 76ms
+195 timing metavuln:cache:put:security-advisory:cordova-common:+4DGchw3jPDbfbzGVQ5KEGw+aTP4FwUJQH2OZP8wFDNvcUL8/dpiIx+zlOaAGWxUkQJJkgkIFAbXH/fg24gNnA== Completed in 3ms
+196 timing metavuln:calculate:security-advisory:cordova-common:S2F6N1npfxNMKW8JxPrr+ws6kyWzJIIdH8B8MPH1/pfJlXb5FHVckoHCDfKksx2cKBg2PNz+N9IyQ1AQUvR+cg== Completed in 79ms
+197 timing metavuln:cache:get:security-advisory:cordova-common:n5VFYowqXm76eWm551qvvC9gaWRcegHbYIq9zVoqxX5fSFKF82nUT//QdJGKIBEivPBUOqLWQdrhYbCrOsWD2A== Completed in 1ms
+198 timing metavuln:load:security-advisory:cordova-common:QSgdwW2KcWvX6nPcZcR0ES5ZYxwPhksxG3K2hijfoMhbBJ2X7PfGzZS1H5GhQgkiV8Cnmwv9KlU0oI3RHW7/AA== Completed in 30ms
+199 timing metavuln:cache:put:security-advisory:cordova-common:n5VFYowqXm76eWm551qvvC9gaWRcegHbYIq9zVoqxX5fSFKF82nUT//QdJGKIBEivPBUOqLWQdrhYbCrOsWD2A== Completed in 4ms
+200 timing metavuln:calculate:security-advisory:cordova-common:QSgdwW2KcWvX6nPcZcR0ES5ZYxwPhksxG3K2hijfoMhbBJ2X7PfGzZS1H5GhQgkiV8Cnmwv9KlU0oI3RHW7/AA== Completed in 35ms
+201 timing metavuln:packument:cordova-android Completed in 0ms
+202 timing metavuln:cache:get:security-advisory:cordova-android:ROlxb9Dc7QYkROA9z1PyxBNzFU02mXFgxjAOaYQA7d9oUYrexSFbBDX/I0s1pcMSCmhEXLipeI9IoJbJrzDA9A== Completed in 0ms
+203 timing metavuln:load:security-advisory:cordova-android:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 64ms
+204 timing metavuln:cache:get:security-advisory:cordova-common:aXTR8qiglo9wPSx2Zsrj+Rz25XEGNrxYXC6QMcyTj5DGeh0/5FnIVjwzjnO8h6Wu9OfixSn4nyfmkv8fChw/QA== Completed in 64ms
+205 timing metavuln:load:security-advisory:cordova-common:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 50ms
+206 timing metavuln:cache:put:security-advisory:cordova-common:aXTR8qiglo9wPSx2Zsrj+Rz25XEGNrxYXC6QMcyTj5DGeh0/5FnIVjwzjnO8h6Wu9OfixSn4nyfmkv8fChw/QA== Completed in 4ms
+207 timing metavuln:calculate:security-advisory:cordova-common:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 118ms
+208 timing metavuln:cache:put:security-advisory:cordova-android:ROlxb9Dc7QYkROA9z1PyxBNzFU02mXFgxjAOaYQA7d9oUYrexSFbBDX/I0s1pcMSCmhEXLipeI9IoJbJrzDA9A== Completed in 54ms
+209 timing metavuln:calculate:security-advisory:cordova-android:3tTSZASD4fxodSqOFFbMp1TFhtaCd5L33AojR8OzawkZtKQkekjNAktlmdjO+aBi7LEsjdyD5SUuASX6119u4w== Completed in 118ms
+210 timing metavuln:cache:get:security-advisory:plist:HXB1NmQSvvpZbPVXBHN6msH9vmf9qDjjXNg49CZJQ1Z7IGxp+wQaTq9kJXvYSBd1ujWHDVCtkmT2Snh2q/6ljg== Completed in 0ms
+211 timing metavuln:load:security-advisory:plist:fNORWE/Jm66BEXGJPVsLmGtXBjiWvYOS2EctkNUXmhb8XJ6rbBexDdSR+/t+dZAvSvjCIMDvJdwiLZPfNB3JYQ== Completed in 1ms
+212 timing metavuln:cache:put:security-advisory:plist:HXB1NmQSvvpZbPVXBHN6msH9vmf9qDjjXNg49CZJQ1Z7IGxp+wQaTq9kJXvYSBd1ujWHDVCtkmT2Snh2q/6ljg== Completed in 2ms
+213 timing metavuln:calculate:security-advisory:plist:fNORWE/Jm66BEXGJPVsLmGtXBjiWvYOS2EctkNUXmhb8XJ6rbBexDdSR+/t+dZAvSvjCIMDvJdwiLZPfNB3JYQ== Completed in 3ms
+214 timing metavuln:cache:get:security-advisory:plist:HGjdzqtRk4I2hDJOMz8j728bh9Q53BSRtIMW11Z/WqJU4D9D+fCblSzcXBC8vlA5ulZzxJOyFr2mQRDhOl51PQ== Completed in 0ms
+215 timing metavuln:load:security-advisory:plist:fmgcFHGM2Qz0lYBOSzMzODkOVDEPnONo5T/4aREHDkOrejvbCn0VqBy82Lj+6/zHjBmsbPi+Mq/0Rb8WnbTIZQ== Completed in 1ms
+216 timing metavuln:cache:put:security-advisory:plist:HGjdzqtRk4I2hDJOMz8j728bh9Q53BSRtIMW11Z/WqJU4D9D+fCblSzcXBC8vlA5ulZzxJOyFr2mQRDhOl51PQ== Completed in 2ms
+217 timing metavuln:calculate:security-advisory:plist:fmgcFHGM2Qz0lYBOSzMzODkOVDEPnONo5T/4aREHDkOrejvbCn0VqBy82Lj+6/zHjBmsbPi+Mq/0Rb8WnbTIZQ== Completed in 3ms
+218 timing metavuln:cache:get:security-advisory:cordova-android:1MBfvhkC7WElqGfVO9Izba2jeMQr09aTaU5ZGRBAel+bk8ISwlvJJGpbKpWgTwOs02Qk+Qj94O1anIgCgaciaw== Completed in 0ms
+219 timing metavuln:load:security-advisory:cordova-android:+4DGchw3jPDbfbzGVQ5KEGw+aTP4FwUJQH2OZP8wFDNvcUL8/dpiIx+zlOaAGWxUkQJJkgkIFAbXH/fg24gNnA== Completed in 3310ms
+220 timing metavuln:cache:put:security-advisory:cordova-android:1MBfvhkC7WElqGfVO9Izba2jeMQr09aTaU5ZGRBAel+bk8ISwlvJJGpbKpWgTwOs02Qk+Qj94O1anIgCgaciaw== Completed in 3ms
+221 timing metavuln:calculate:security-advisory:cordova-android:+4DGchw3jPDbfbzGVQ5KEGw+aTP4FwUJQH2OZP8wFDNvcUL8/dpiIx+zlOaAGWxUkQJJkgkIFAbXH/fg24gNnA== Completed in 3313ms
+222 timing auditReport:init Completed in 6749ms
+223 timing reify:audit Completed in 7014ms
+224 timing reify Completed in 12801ms
+225 silly ADD node_modules/yallist
+226 silly ADD node_modules/lru-cache
+227 silly ADD node_modules/semver
+228 silly ADD node_modules/android-versions
+229 silly ADD node_modules/cordova-android
+230 timing command:install Completed in 12845ms
+231 verbose exit 0
+232 timing npm Completed in 13207ms
+233 info ok
