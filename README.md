@@ -1,6 +1,6 @@
-# Quasar App (app-android)
+# Quasar App (vue-android)
 
-A Quasar Project
+软件课设app端
 
 ## Install the dependencies
 ```bash
@@ -13,24 +13,6 @@ npm install
 ```bash
 quasar dev
 ```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
 
 ### Build the app for production
 ```bash
