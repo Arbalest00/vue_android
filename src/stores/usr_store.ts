@@ -25,6 +25,7 @@ export const useDeviceStore = defineStore('deviceStore', {
         sspeed_z:0,
         sposture:'',
         stime:'',
+        runningflag:false,
       }),       
   actions: {
     updateCurrentTime() {
@@ -104,7 +105,7 @@ export const useDeviceStore = defineStore('deviceStore', {
           this.x[i] += this.speed_x[i];
           this.y[i] += this.speed_y[i];
           this.altitude[i] += this.speed_z[i];
-      
+
           // 处理经度边界
           if (this.x[i] > 180) this.x[i] = this.x[i] - 360;
           else if (this.x[i] < -180) this.x[i] = this.x[i] + 360;
@@ -142,31 +143,25 @@ export const useDeviceStore = defineStore('deviceStore', {
         //console.log(this.device_id);
       },
       data_maintain_running() {
-        if(this.device_id[this.select] != this.sdevice_id)
-        {
-          this.device_id[this.select] = this.sdevice_id;
-        }
-        if(this.x[this.select] != this.sx)
-        {
-          this.x[this.select] = this.sx;
-        }
-        if(this.y[this.select] != this.sy)
-        {
-          this.y[this.select] = this.sy;
-        }
-        if(this.altitude[this.select] != this.saltitude)
-        {
-          this.altitude[this.select] = this.saltitude;
-        }
-        if(this.sposture[this.select] != this.sposture)
-        {
-          this.posture[this.select] = this.sposture;
-        }
+        this.sdevice_id = this.device_id[this.select];
+        this.sx = this.x[this.select];
+        this.sy = this.y[this.select];
+        this.saltitude = this.altitude[this.select];
         this.sspeed_x = this.speed_x[this.select];
         this.sspeed_y = this.speed_y[this.select];
         this.sspeed_z = this.speed_z[this.select];
         this.stime = this.time[this.select];
-      }
+      },
+      data_set() {
+        this.device_id[this.select] = this.sdevice_id;
+        this.x[this.select] = this.sx;
+        this.y[this.select] = this.sy;
+        this.altitude[this.select] = this.saltitude;
+        this.speed_x[this.select] = this.sspeed_x;
+        this.speed_y[this.select] = this.sspeed_y;
+        this.speed_z[this.select] = this.sspeed_z;
+        this.posture[this.select] = this.sposture;
+      },
       
   },
 });

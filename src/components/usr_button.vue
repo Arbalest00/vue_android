@@ -40,6 +40,7 @@ const transmitData = async (n) => {
 const startTransmitting = (n) => {
     if (!isTransmitting.value) {
         isTransmitting.value = true;
+        store.data_set();
         intervalId = setInterval(() => transmitData(n), 200);
     }
 };
@@ -54,8 +55,10 @@ const stopTransmitting = (n) => {
 const toggleTransmit = (n) => {
     if (isTransmitting.value) {
     stopTransmitting(n);
+    store.runningflag =true;
     } else {
     startTransmitting(n);
+    store.runningflag =false;
     }
 };
 </script>
