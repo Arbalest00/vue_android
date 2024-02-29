@@ -1,6 +1,6 @@
 <template>
   <q-page class="row-auto items-center justify-evenly">
-    <br><br><br><br>
+    <br><br>
     <div class="col-8 text-black text-center">
       <div class="text-h2 text-weight-light">
         Data <br> Transmitter
@@ -9,7 +9,7 @@
     <br><br>
     <div class="q-pa-xl">
       <usr_input/>
-      <br><br>
+      <br>
     </div>
     <usr_button/>
   </q-page>

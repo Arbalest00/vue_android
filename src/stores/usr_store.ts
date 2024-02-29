@@ -13,8 +13,18 @@ export const useDeviceStore = defineStore('deviceStore', {
         speed_z: [] as number[],
         posture: [] as string[],
         time: [] as string[],
+        select:0,
         page_time: '',
         mtn:0.01,
+        sdevice_id:'',
+        sx:0,
+        sy:0,
+        saltitude:0,
+        sspeed_x:0,
+        sspeed_y:0,
+        sspeed_z:0,
+        sposture:'',
+        stime:'',
       }),       
   actions: {
     updateCurrentTime() {
@@ -74,6 +84,7 @@ export const useDeviceStore = defineStore('deviceStore', {
           
         }
         this.datatimegenerator();
+        this.data_maintain();
       },
       
       data_generater_running() {
@@ -111,10 +122,51 @@ export const useDeviceStore = defineStore('deviceStore', {
           this.speed_y[i] = (Math.random() * 10 - 5) * this.mtn;
           this.speed_z[i] = (Math.random() * 10 - 5) * this.mtn;
         }
+        
         this.datatimegenerator();
+        this.data_maintain_running();
       },
-      
-      
+      data_maintain() {
+        this.sdevice_id = this.device_id[this.select];
+        this.sx = this.x[this.select];
+        this.sy = this.y[this.select];
+        this.saltitude = this.altitude[this.select];
+        this.sspeed_x = this.speed_x[this.select];
+        this.sspeed_y = this.speed_y[this.select];
+        this.sspeed_z = this.speed_z[this.select];
+        this.sposture = this.posture[this.select];
+        this.stime = this.time[this.select];
+        //console.log("maintain");
+        //console.log(this.select);
+        //console.log(this.sdevice_id);
+        //console.log(this.device_id);
+      },
+      data_maintain_running() {
+        if(this.device_id[this.select] != this.sdevice_id)
+        {
+          this.device_id[this.select] = this.sdevice_id;
+        }
+        if(this.x[this.select] != this.sx)
+        {
+          this.x[this.select] = this.sx;
+        }
+        if(this.y[this.select] != this.sy)
+        {
+          this.y[this.select] = this.sy;
+        }
+        if(this.altitude[this.select] != this.saltitude)
+        {
+          this.altitude[this.select] = this.saltitude;
+        }
+        if(this.sposture[this.select] != this.sposture)
+        {
+          this.posture[this.select] = this.sposture;
+        }
+        this.sspeed_x = this.speed_x[this.select];
+        this.sspeed_y = this.speed_y[this.select];
+        this.sspeed_z = this.speed_z[this.select];
+        this.stime = this.time[this.select];
+      }
       
   },
 });

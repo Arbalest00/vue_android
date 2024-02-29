@@ -37,17 +37,12 @@ const transmitData = async (n) => {
         console.error('Error sending data:', error);
     }
 };
-
-
 const startTransmitting = (n) => {
     if (!isTransmitting.value) {
         isTransmitting.value = true;
-        // 注意这里使用了箭头函数来确保正确调用 transmitData
-        intervalId = setInterval(() => transmitData(n), 200); // 设置间隔为0.1秒
+        intervalId = setInterval(() => transmitData(n), 200);
     }
 };
-
-
 const stopTransmitting = (n) => {
     if (isTransmitting.value) {
     clearInterval(intervalId);

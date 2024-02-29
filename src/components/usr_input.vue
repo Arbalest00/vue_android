@@ -1,40 +1,46 @@
 <template>
   <div>
-    <q-input outlined bottom-slots v-model="store.device_id[0]" label="Device ID" counter maxlength="100">
+    <q-select square standout v-model="store.select" :options="computedOptions" label="Square standout" emit-value map-options />
+    <br /><br />
+    <q-input outlined bottom-slots v-model="store.sdevice_id" label="Device ID">
       <template v-slot:append>
-        <q-icon v-if="store.device_id[0] !== ''" name="close" @click="store.device_id[0] = ''" class="cursor-pointer" />
+        <q-icon v-if="store.sdevice_id !== ''" name="close" @click="store.sdevice_id = ''" class="cursor-pointer" />
       </template>
     </q-input>
+    <q-input outlined v-model="store.sx" type="number" label="X" />
+    <q-input outlined v-model="store.sy" type="number" label="Y" />
+    <q-input outlined v-model="store.saltitude" type="number" label="Altitude" />
+    <q-input outlined v-model="store.sspeed_x" type="number" label="Speed X" />
+    <q-input outlined v-model="store.sspeed_y" type="number" label="Speed Y" />
+    <q-input outlined v-model="store.sspeed_z" type="number" label="Speed Z" />
 
-    <!-- 为数值类型的字段，我们不需要counter和maxlength属性 -->
-    <q-input outlined v-model="store.x[0]" type="number" label="X" />
-    <q-input outlined v-model="store.y[0]" type="number" label="Y" />
-    <q-input outlined v-model="store.altitude[0]" type="number" label="Altitude" />
-    <q-input outlined v-model="store.speed_x[0]" type="number" label="Speed X" />
-    <q-input outlined v-model="store.speed_y[0]" type="number" label="Speed Y" />
-    <q-input outlined v-model="store.speed_z[0]" type="number" label="Speed Z" />
-
-    <q-input outlined bottom-slots v-model="store.posture[0]" label="Posture" counter maxlength="100">
+    <q-input outlined bottom-slots v-model="store.sposture" label="Posture">
       <template v-slot:append>
-        <q-icon v-if="store.posture[0] !== ''" name="close" @click="store.posture[0] = ''" class="cursor-pointer" />
+        <q-icon v-if="store.sposture !== ''" name="close" @click="store.sposture = ''" class="cursor-pointer" />
       </template>
     </q-input>
-
-    <!-- 对于时间，我们使用一个特殊的类型 -->
     <div>{{ store.page_time }}</div>
     <q-input outlined v-model="store.transmit_n" type="number" label="thread number" />
   </div>
 </template>
 <script setup>
-import { onMounted, onUnmounted} from 'vue';
-import { useDeviceStore } from 'stores/usr_store.ts'; // 确保路径正确
+import { onMounted, onUnmounted, computed, watch } from 'vue';
+import { useDeviceStore } from 'stores/usr_store.ts';
 
 const store = useDeviceStore();
-
+const computedOptions = computed(() => {
+  const options = [];
+  for (let i = 0; i < store.transmit_n; i++) {
+    options.push({ label: `Device ${i}`, value: i });
+  }
+  return options;
+});
+watch(() => store.select, () => {
+  store.data_maintain();
+});
 onMounted(() => {
   store.updateCurrentTime();
   const intervalId = setInterval(store.updateCurrentTime, 1000);
-
   onUnmounted(() => {
     clearInterval(intervalId);
   });
